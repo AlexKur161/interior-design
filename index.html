@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rost</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link  href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="assets/js/inputmask.min.js"></script>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-bg">
+            <div class="container container-header">
+
+                <div class="header-flex">
+                        <div class="wrap-logo">
+                            <a href="/index.html">
+                            <img src="assets/img/icon/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <nav class="diz-nav">
+                            <a href="#calc" class="link-menu link-arrow">Калькулятор</a>
+                            <a href="#project" class="link-menu link-arrow">Наши работы</a>
+                            <a href="#ar" class="link-menu link-arrow">AR-мебель</a>
+                            <a href="#tariff" class="link-menu link-arrow">Тарифы</a>
+                            <a href="#stages" class="link-menu link-arrow">Этапы</a>
+                            <a href="#contact" class="link-menu link-arrow">Контакты</a>
+                        </nav>
+
+                        <div class="hamburger-wrap">
+                        <div class="phone-wrap">
+                            <div class="phone-wrap-mini">
+                                <img src="assets/img/icon/el-orange.svg" alt="">
+                                <p>Звоните, Пн -Пт 9:00-20:00</p>
+                            </div>
+                            <a href="tel:+78633006055" class="phone-header">8 863 300-60-55</a>
+                        </div>
+                         <!-- мобильное меню -->
+            <div class="wrap-cross">
+                    <div class="cross">
+                            <span></span>
+                    </div>
+            </div>
+            <!-- мобильное меню -->
+                    </div>
+                </div>
+                <nav class="diz-nav diz-mobil">
+                    <a href="#calc" class="link-menu link-arrow">Калькулятор</a>
+                    <a href="#project" class="link-menu link-arrow">Наши работы</a>
+                    <a href="#ar" class="link-menu link-arrow">AR-мебель</a>
+                    <a href="#tariff" class="link-menu link-arrow">Тарифы</a>
+                    <a href="#stages" class="link-menu link-arrow">Этапы</a>
+                    <a href="#contact" class="link-menu link-arrow">Контакты</a>
+                </nav>
+                <div class="phone-wrap contact-wrap">
+                    <div class="phone-wrap-mini">
+                        <img src="assets/img/icon/el-orange.svg" alt="">
+                        <p>Звоните, Пн -Пт 9:00-20:00</p>
+                    </div>
+                    <a href="tel:+78633006055" class="phone-header">8 863 300-60-55</a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-sec">
+            <div class="container">
+                <div class="wrap-zag">
+                    <h1 class="main-title">Создадим Авторский<span><img src="assets/img/icon/star.svg" alt=""></span> дизайн <span class="mobile-span"><img src="assets/img/icon/star.svg" alt=""></span> интерьера</h1>
+                    <p class="main-txt">вашей квартиры или дома со 100% реализацией под ваш бюджет</p>
+                </div>
+                <div class="wrap-btn">
+                    <a target="_blank" href="https://mrqz.me/61920d4e3f55de003f174314" class="calculator-btn">Калькулятор стоимости</a>
+                    <a class="whatsapp-link" href="https://wa.me/79896218535" target="_blank">
+                        <div class="whatsapp-wrap">
+                            <p>Спросить в whatsapp</p>
+                            <img src="assets/img/icon/wa.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="wrap-circle">
+                <div class="circle">
+                    <a target="_blank" class="link-circle" href="https://www.youtube.com/channel/UCb0x00EIQu8mnFKCG6Ya8xA"></a>
+                    <img class="video-img-ani" src="assets/img/icon/video.svg" alt="">
+                    <img class="center-play" src="assets/img/icon/play.svg" alt="">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="garant">
+            <div class="container">
+                <div class="wrap-arrow">
+                    <button disabled class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect class="prev-stroke-svg stroke-svg-gray" x="1" y="1" width="38" height="38" rx="9" stroke-width="2"/>
+                        <path class="prev-fill-svg fill-svg-gray" xmlns="http://www.w3.org/2000/svg" d="M18.5158 19.9877L17.668 19.1461L18.5158 20.0001L23.6878 25.21C23.8821 25.4057 23.9912 25.6712 23.9912 25.948C23.9912 26.2247 23.8821 26.4902 23.6878 26.6859C23.4935 26.8816 23.2301 26.9915 22.9554 26.9915C22.6807 26.9915 22.4172 26.8816 22.2229 26.6859L16.3122 20.7318C16.1179 20.5361 16.0088 20.2707 16.0088 19.9939C16.0088 19.7171 16.1179 19.4517 16.3122 19.256L22.2228 13.302C22.2228 13.302 22.2228 13.302 22.2228 13.302C22.4182 13.1119 22.6799 13.0067 22.9515 13.0091C23.2232 13.0115 23.483 13.1212 23.6751 13.3147C23.8672 13.5082 23.9762 13.77 23.9786 14.0437C23.9809 14.3173 23.8765 14.581 23.6878 14.7778C23.6878 14.7778 23.6878 14.7778 23.6877 14.7779L18.5158 19.9877Z"/>
+                    </svg></button>
+                    <button class="next"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect class="next-stroke-svg stroke-svg-orange" x="1" y="1" width="38" height="38" rx="9" stroke-width="2"/>
+                        <path class="next-fill-svg fill-svg-orange" d="M16.3059 13.3082C16.11 13.5055 16 13.7732 16 14.0523C16 14.3314 16.11 14.599 16.3059 14.7964L21.4779 20.0064L16.3059 25.2163C16.1156 25.4148 16.0103 25.6807 16.0127 25.9566C16.015 26.2326 16.1249 26.4966 16.3186 26.6917C16.5124 26.8869 16.7744 26.9976 17.0484 27C17.3223 27.0024 17.5863 26.8963 17.7833 26.7045L23.6941 20.7505C23.89 20.5531 24 20.2854 24 20.0064C24 19.7273 23.89 19.4596 23.6941 19.2622L17.7833 13.3082C17.5874 13.1108 17.3217 13 17.0446 13C16.7676 13 16.5019 13.1108 16.3059 13.3082V13.3082Z"/>
+                        </svg></button>
+                </div>
+                <div class="quality">
+                    <div class="quality-mini">
+                        <h2 class="quality-title">гарантируем качество</h2>
+                        <p class="quality-txt">Все процессы работы пройдут для вас без&nbsp;нервов и&nbsp;головной боли</p>
+                        <div class="rost-info">
+                            <img class="rost-info-img" src="assets/img/icon/vert-line.svg" alt="">
+                            <p class="rost-info-txt"><span class="rost-info-span">Rost Art media</span> – это компания, которая более 6 лет успешно занимается комплексом работ по проектированию и&nbsp;благоустройству общественных пространств</p>
+                        </div>
+                    </div>
+                    <div class="quality-mini2">
+                        <div class="quality-card gray-card card-ani">
+                            <img src="assets/img/icon/card-arrow.svg" alt="" class="card-arrow">
+                            <img src="assets/img/icon/calendar.png" alt="" class="card-img">
+                            <h4 class="card-title">ВСЕГДА НАЗЫВАЕМ ТОЧНЫЕ СРОКИ</h4>
+                            <p class="card-txt">Называем день установки сразу после замера благодаря отлаженному производству</p>
+                        </div>
+                        <div class="quality-card gray-white card-ani">
+                            <img src="assets/img/icon/card-arrow.svg" alt="" class="card-arrow">
+                            <img src="assets/img/icon/measuring.png" alt="" class="card-img">
+                            <h4 class="card-title card-color-gray">КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА</h4>
+                            <p class="card-txt card-color-gray">После заключения договора консультация специалист
+                                и выезд замерщика бесплатно</p>
+                        </div>
+                        <div class="quality-card gray-card card-show">
+                            <img src="assets/img/icon/card-arrow.svg" alt="" class="card-arrow">
+                            <img src="assets/img/icon/contract.png" alt="" class="card-img">
+                            <h4 class="card-title">НАДЕЖНАЯ РАБОТА ПО&nbsp;ДОГОВОРУ</h4>
+                            <p class="card-txt">Работаем строго по договору, соблюдая все соглашения</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="garant garant-mobil">
+            <div class="container">
+                <div class="quality">
+                    <div class="quality-mini">
+                        <h2 class="quality-title">гарантируем качество</h2>
+                        <p class="quality-txt">Все процессы работы пройдут для вас без&nbsp;нервов и&nbsp;головной боли</p>
+                        <div class="rost-info">
+                            <img class="rost-info-img" src="assets/img/icon/vert-line.svg" alt="">
+                            <p class="rost-info-txt"><span class="rost-info-span">Rost Art media</span> – это компания, которая более 6 лет успешно занимается комплексом работ по проектированию и&nbsp;благоустройству общественных пространств</p>
+                        </div>
+                    </div>
+                            <!-- Slider main container -->
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                        <div class="quality-card gray-card card-ani">
+                                        <img src="assets/img/icon/card-arrow.svg" alt="" class="card-arrow">
+                                        <img src="assets/img/icon/calendar.png" alt="" class="card-img">
+                                        <h4 class="card-title">ВСЕГДА НАЗЫВАЕМ ТОЧНЫЕ СРОКИ</h4>
+                                        <p class="card-txt">Называем день установки сразу после замера благодаря отлаженному производству</p>
+                                        </div>
+                                </div>
+                                <div class="swiper-slide">
+                                        <div class="quality-card gray-white card-ani">
+                                        <img src="assets/img/icon/card-arrow.svg" alt="" class="card-arrow">
+                                        <img src="assets/img/icon/measuring.png" alt="" class="card-img">
+                                        <h4 class="card-title card-color-gray">КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА</h4>
+                                        <p class="card-txt card-color-gray">После заключения договора консультация специалист
+                                            и выезд замерщика бесплатно</p>
+                                        </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="quality-card gray-card card-show">
+                                        <img src="assets/img/icon/card-arrow.svg" alt="" class="card-arrow">
+                                        <img src="assets/img/icon/contract.png" alt="" class="card-img">
+                                        <h4 class="card-title">НАДЕЖНАЯ РАБОТА ПО&nbsp;ДОГОВОРУ</h4>
+                                        <p class="card-txt">Работаем строго по договору, соблюдая все соглашения</p>
+                                    </div>
+                                </div>
+                               
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                            
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev">
+                                    <button disabled class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                        <rect class="prev-stroke-svg stroke-svg-gray" x="1" y="1" width="38" height="38" rx="9" stroke-width="2"/>
+                                        <path class="prev-fill-svg fill-svg-gray" xmlns="http://www.w3.org/2000/svg" d="M18.5158 19.9877L17.668 19.1461L18.5158 20.0001L23.6878 25.21C23.8821 25.4057 23.9912 25.6712 23.9912 25.948C23.9912 26.2247 23.8821 26.4902 23.6878 26.6859C23.4935 26.8816 23.2301 26.9915 22.9554 26.9915C22.6807 26.9915 22.4172 26.8816 22.2229 26.6859L16.3122 20.7318C16.1179 20.5361 16.0088 20.2707 16.0088 19.9939C16.0088 19.7171 16.1179 19.4517 16.3122 19.256L22.2228 13.302C22.2228 13.302 22.2228 13.302 22.2228 13.302C22.4182 13.1119 22.6799 13.0067 22.9515 13.0091C23.2232 13.0115 23.483 13.1212 23.6751 13.3147C23.8672 13.5082 23.9762 13.77 23.9786 14.0437C23.9809 14.3173 23.8765 14.581 23.6878 14.7778C23.6878 14.7778 23.6878 14.7778 23.6877 14.7779L18.5158 19.9877Z"/>
+                                    </svg></button>
+                                </div>
+                                <div class="swiper-button-next">
+                                    <button class="next"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                        <rect class="next-stroke-svg stroke-svg-orange" x="1" y="1" width="38" height="38" rx="9" stroke-width="2"/>
+                                        <path class="next-fill-svg fill-svg-orange" d="M16.3059 13.3082C16.11 13.5055 16 13.7732 16 14.0523C16 14.3314 16.11 14.599 16.3059 14.7964L21.4779 20.0064L16.3059 25.2163C16.1156 25.4148 16.0103 25.6807 16.0127 25.9566C16.015 26.2326 16.1249 26.4966 16.3186 26.6917C16.5124 26.8869 16.7744 26.9976 17.0484 27C17.3223 27.0024 17.5863 26.8963 17.7833 26.7045L23.6941 20.7505C23.89 20.5531 24 20.2854 24 20.0064C24 19.7273 23.89 19.4596 23.6941 19.2622L17.7833 13.3082C17.5874 13.1108 17.3217 13 17.0446 13C16.7676 13 16.5019 13.1108 16.3059 13.3082V13.3082Z"/>
+                                        </svg></button>
+                                </div>
+                            
+                                <!-- If we need scrollbar -->
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section id="calc" class="free-payment">
+            <div class="container">
+                <div class="wrap-free">
+                    <h2 class="wrap-free-title">Бесплатный расчет стоимости</h2>
+                    <p class="wrap-free-txt">Пройдите тест и получите бесплатную консультацию специалиста, по стоимости работ</p>
+                    <a target="_blank" class="wrap-free-link" href="https://mrqz.me/61920d4e3f55de003f174314">
+                        <p>рассчитать стоимость</p>
+                        <img src="assets/img/icon/btn-arrow.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="author-project">
+            <div class="container">
+                <div class="wrap-project">
+                    <div class="stl">
+                        <div class="abs-img"><img src="assets/img/fancy/st-shadow.png" alt=""></div>
+                            <div class="circle circle-project">
+                                <a target="_blank" class="link-circle" href="https://www.youtube.com/channel/UCb0x00EIQu8mnFKCG6Ya8xA"> </a>
+                                <img class="video-img-ani" src="assets/img/icon/video.svg" alt="">
+                                <img class="center-play" src="assets/img/icon/play.svg" alt="">
+                            </div>
+                            
+                        
+                    </div>
+                    <div class="stl2">
+                        <h2 class="stl2-title">ВЫПОЛНИЛИ <span>БОЛЕЕ 200</span> АВТОРСКИХ ПРОЕКТОВ</h2>
+                        <div class="visible-next-wrap">
+                            <p class="stl2-txt">Дизайна интерьера, в том числе и общественного интерьера</p>
+                            <a target="_blank" class="visible-next" href="https://city.rostartmedia.ru/our-works/">
+                                <p>Смотреть больше</p>
+                                <img src="assets/img/icon/visible-arrow.svg" alt="">   
+                            </a>
+                        </div>
+                        
+                        <div class="wrap-fancy">
+                            <a data-fancybox="gallery" href="assets/img/fancy/fancybig-1.jpg">
+                                <img src="assets/img/fancy/fancy-1.png">
+                            </a>
+                            <a data-fancybox="gallery" href="assets/img/fancy/fancybig-2.jpg">
+                                <img src="assets/img/fancy/fancy-2.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-project2">
+                    <div class="wrap-fancy">
+                        <a data-fancybox="gallery" href="assets/img/fancy/fancybig-3.jpg">
+                            <img src="assets/img/fancy/fancy-3.png">
+                        </a>
+                        <a data-fancybox="gallery" href="assets/img/fancy/fancybig-4.jpg">
+                            <img src="assets/img/fancy/fancy-4.png">
+                        </a>
+                        <div class="orange-visualization">
+                            <h3 class="orange-visualization-title">Визуализируем любые объекты</h3>
+                            <ul class="list-visualization">
+                                <li>Квартира, дом</li>
+                                <li>Офис</li>
+                                <li>Кафе или ресторан</li>
+                                <li>Салон красоты или магазин</li>
+                            </ul>
+                            <a class="wrap-free-link visualization-free" href="">
+                                <p>Получить предложение</p>
+                                <img src="assets/img/icon/btn-arrow.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="project" class="author-project author-project-mobil">
+            <div class="container">
+                <div class="wrap-project">
+                    <div class="stl">
+                        <div class="abs-img"><img src="assets/img/fancy/st-shadow.png" alt=""></div>
+                            <div class="circle circle-project">
+                                <a target="_blank" class="link-circle" href="https://www.youtube.com/channel/UCb0x00EIQu8mnFKCG6Ya8xA"> </a>
+                                <img class="video-img-ani" src="assets/img/icon/video.svg" alt="">
+                                <img class="center-play" src="assets/img/icon/play.svg" alt="">
+                            </div>
+                            
+                        
+                    </div>
+                    <div class="stl2">
+                        <h2 class="stl2-title">ВЫПОЛНИЛИ <span>БОЛЕЕ 200</span> АВТОРСКИХ ПРОЕКТОВ</h2>
+                        <div class="visible-next-wrap">
+                            <p class="stl2-txt">Дизайна интерьера, в том числе и общественного интерьера</p>
+                            <a target="_blank" class="visible-next" href="https://city.rostartmedia.ru/our-works/">
+                                <p>Смотреть больше</p>
+                                <img src="assets/img/icon/visible-arrow.svg" alt="">   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-project2">
+                    <!-- Slider main container -->
+<div class="swiper swiper-project">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+        <a data-fancybox="gallery" href="assets/img/fancy/fancybig-1.jpg">
+            <img class="img-swipe" src="assets/img/swiper/mobil-img1.png">
+        </a>
+    </div>
+    <div class="swiper-slide">
+        <a data-fancybox="gallery" href="assets/img/fancy/fancybig-2.jpg">
+            <img class="img-swipe" src="assets/img/swiper/mobil-img2.png">
+        </a>
+    </div>
+    <div class="swiper-slide">
+        <a data-fancybox="gallery" href="assets/img/fancy/fancybig-3.jpg">
+            <img class="img-swipe" src="assets/img/swiper/mobil-img3.png">
+        </a>
+    </div>
+    <div class="swiper-slide">
+        <a data-fancybox="gallery" href="assets/img/fancy/fancybig-4.jpg">
+            <img class="img-swipe" src="assets/img/swiper/mobil-img4.png">
+        </a>
+    </div>
+    <div class="swiper-slide">
+        <div class="orange-visualization">
+            <h3 class="orange-visualization-title">Визуализируем любые объекты</h3>
+            <ul class="list-visualization">
+                <li>Квартира, дом</li>
+                <li>Офис</li>
+                <li>Кафе или ресторан</li>
+                <li>Салон красоты или магазин</li>
+            </ul>
+            <a class="wrap-free-link visualization-free" href="">
+                <p>Получить предложение</p>
+                <img src="assets/img/icon/btn-arrow.svg" alt="">
+            </a>
+        </div>
+    </div>
+   
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev">
+        <button disabled class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <rect class="prev-stroke-svg stroke-svg-gray" x="1" y="1" width="38" height="38" rx="9" stroke-width="2"/>
+            <path class="prev-fill-svg fill-svg-gray" xmlns="http://www.w3.org/2000/svg" d="M18.5158 19.9877L17.668 19.1461L18.5158 20.0001L23.6878 25.21C23.8821 25.4057 23.9912 25.6712 23.9912 25.948C23.9912 26.2247 23.8821 26.4902 23.6878 26.6859C23.4935 26.8816 23.2301 26.9915 22.9554 26.9915C22.6807 26.9915 22.4172 26.8816 22.2229 26.6859L16.3122 20.7318C16.1179 20.5361 16.0088 20.2707 16.0088 19.9939C16.0088 19.7171 16.1179 19.4517 16.3122 19.256L22.2228 13.302C22.2228 13.302 22.2228 13.302 22.2228 13.302C22.4182 13.1119 22.6799 13.0067 22.9515 13.0091C23.2232 13.0115 23.483 13.1212 23.6751 13.3147C23.8672 13.5082 23.9762 13.77 23.9786 14.0437C23.9809 14.3173 23.8765 14.581 23.6878 14.7778C23.6878 14.7778 23.6878 14.7778 23.6877 14.7779L18.5158 19.9877Z"/>
+        </svg></button>
+    </div>
+    <div class="swiper-button-next">
+        <button class="next"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <rect class="next-stroke-svg stroke-svg-orange" x="1" y="1" width="38" height="38" rx="9" stroke-width="2"/>
+            <path class="next-fill-svg fill-svg-orange" d="M16.3059 13.3082C16.11 13.5055 16 13.7732 16 14.0523C16 14.3314 16.11 14.599 16.3059 14.7964L21.4779 20.0064L16.3059 25.2163C16.1156 25.4148 16.0103 25.6807 16.0127 25.9566C16.015 26.2326 16.1249 26.4966 16.3186 26.6917C16.5124 26.8869 16.7744 26.9976 17.0484 27C17.3223 27.0024 17.5863 26.8963 17.7833 26.7045L23.6941 20.7505C23.89 20.5531 24 20.2854 24 20.0064C24 19.7273 23.89 19.4596 23.6941 19.2622L17.7833 13.3082C17.5874 13.1108 17.3217 13 17.0446 13C16.7676 13 16.5019 13.1108 16.3059 13.3082V13.3082Z"/>
+            </svg></button>
+    </div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="ar" class="ar">
+            <div class="container">
+                <div class="wrap-ar">
+                    <img class="big-lamp" src="assets/img/icon/big-lamp.png" alt="">
+                    <div class="wrap-ar-mini info-ar-mini">
+                        <h2 class="wrap-ar-title"><span>Бонус</span> мебель в&nbsp;AR</h2>
+                        <p class="wrap-ar-txt">Вы можете посмотреть как будет смотреться мебель до её покупки, с&nbsp;помощью AR технологии</p>
+                        <div class="wrap-scan">
+                            <img src="assets/img/icon/photo-scan.svg" alt="">
+                            <h3>Отсканируйте qr-код, чтобы увидеть пример визуализации</h3>
+                        </div>
+                        <a class="scan-btn" href="">
+                            <p>посмотреть пример</p>
+                            <img src="assets/img/icon/gray-btn.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-ar-mini phone-ar-mini">
+                        <img class="phone-ar" src="assets/img/bg/phone.png" alt="">
+                        <img class="phone-ar phone-ar-mobile" src="assets/img/bg/scan-phone.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tariff" class="price-diz">
+            <div class="container container-relative">
+                <div class="price-diz-bg"></div>
+                        <div class="sticky-wrap">
+                        <div class="price-diz-wrap">
+                            <h2 class="price-diz-title">СТОИМОСТЬ ДИЗАЙНА ИНТЕРЬЕРА</h2>
+                            <div class="rost-info rost-info-price">
+                                <img class="rost-info-img price-diz-img" src="assets/img/icon/price-line.svg" alt="">
+                                <p class="rost-info-txt price-diz-txt">Стоимость каждого помещения
+                                    рассчитывается индивидуально</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="tariff-wrap">
+                            <div class="tariff">
+                                <h4 class="tariff-title">Техно</h4>
+                                <div class="entrance-wrap">
+                                    <p>Что входит в проект</p>
+                                    <img src="assets/img/icon/arrow-bottom.svg" alt="">
+                                </div>
+                                <div class="number-text-wrap">
+                                    <img src="assets/img/icon/one-numb.svg" alt="">
+                                    <h6>ПЛАНИРОВОЧНОЕ РЕШЕНИЕ</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>Выезд на объект</li>
+                                    <li>План обмера</li>
+                                    <li>Планировочные решения</li>
+                                </ul>
+                                <div class="number-text-wrap">
+                                    <img src="assets/img/icon/tu-numb.svg" alt="">
+                                    <h6>КОМПЛЕКТ ЧЕРТЕЖЕЙ ДЛЯ РЕМОНТА</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>План расположения мебели и&nbsp;оборудования</li>
+                                    <li>План демонтажа конструкций</li>
+                                    <li>План монтажа конструкций</li>
+                                    <li>План теплых полов</li>
+                                    <li>План потолков</li>
+                                    <li>План расположения и подключения приборов освещения</li>
+                                    <li>План расположения сантехнического оборудования</li>
+                                </ul>
+                                <div class="number-text-wrap number-textone-wrap">
+                                    <img src="assets/img/icon/numb3.svg" alt="">
+                                    <h6>Коллажи</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>Концепция вашего жилья</li>
+                                </ul>
+                                <div class="number-text-wrap number-textone-wrap">
+                                    <img src="assets/img/icon/numb4.svg" alt="">
+                                    <h6>Ведомость</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>Концепция вашего жилья</li>
+                                </ul>
+                                <p class="price-number"><span>750 </span>руб/м&sup2;</p>
+                                <a class="wrap-free-link wrap-free-price" href="">
+                                    <p>выбрать тариф</p>
+                                    <img src="assets/img/icon/btn-arrow.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="tariff">
+                                <h4 class="tariff-title">Оптимальный</h4>
+                                <div class="entrance-wrap">
+                                    <p>Что входит в проект</p>
+                                    <img src="assets/img/icon/arrow-bottom.svg" alt="">
+                                </div>
+                                <div class="number-text-wrap">
+                                    <img src="assets/img/icon/one-numb.svg" alt="">
+                                    <h6>ПЛАНИРОВОЧНОЕ РЕШЕНИЕ</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>Выезд на объект</li>
+                                    <li>План обмера</li>
+                                    <li>Планировочные решения</li>
+                                </ul>
+                                <div class="number-text-wrap">
+                                    <img src="assets/img/icon/tu-numb.svg" alt="">
+                                    <h6>КОМПЛЕКТ ЧЕРТЕЖЕЙ ДЛЯ РЕМОНТА</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>План расположения мебели и&nbsp;оборудования</li>
+                                    <li>План демонтажа конструкций</li>
+                                    <li>План монтажа конструкций</li>
+                                    <li>План теплых полов</li>
+                                    <li>План потолков</li>
+                                    <li>План расположения розеток</li>
+                                    <li>План расположения светильников</li>
+                                    <li>План расположения выключателей</li>
+                                    <li>План расположения сантехнического оборудования</li>
+                                </ul>
+                                    <p class="star-txt"><span>+ </span>Развертки стен по некоторым помещениям</p>
+                                <div class="number-text-wrap">
+                                    <img src="assets/img/icon/numb3.svg" alt="">
+                                    <h6 class="d3">3D ВИЗУАЛИЗАЦИЯ</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>Фотореалистичные изображения интерьера</li>
+                                </ul>
+                                <div class="number-text-wrap">
+                                    <img src="assets/img/icon/numb4.svg" alt="">
+                                    <h6>СПЕЦИФИКАЦИЯ МАТЕРИАЛОВ</h6>
+                                </div>
+                                <ul class="list-price">
+                                    <li>Сводная ведомость использованных отделочных материалов, мебели, дверей, 
+                                        светильников с&nbsp;указанием наименования, количества, артикулов и мест продажи</li>
+                                </ul>
+                                <div class="number-text-wrap number-textone-wrap">
+                                    <h6>В пакете "Оптимальный" добавляются 3d визуализации вашего будущего помещения</h6>
+                                </div>
+                                <p class="price-number"><span>1500 </span>руб/м&sup2;</p>
+                                <a class="wrap-free-link wrap-free-price" href="">
+                                    <p>выбрать тариф</p>
+                                    <img src="assets/img/icon/btn-arrow.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="tariff tariff-wrap-orange">
+                                <h4 class="tariff-title">Профи</h4>
+                                    <div class="entrance-wrap entrance-wrap-orange">
+                                        <p>Что входит в проект</p>
+                                        <img src="assets/img/icon/arrow-bottom.svg" alt="">
+                                    </div>
+                                <div class="tariff tariff-orange">
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/one-numb.svg" alt="">
+                                        <h6>ПЛАНИРОВОЧНОЕ РЕШЕНИЕ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Выезд на объект</li>
+                                        <li>План обмера</li>
+                                        <li>Планировочные решения</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/tu-numb.svg" alt="">
+                                        <h6>КОМПЛЕКТ ЧЕРТЕЖЕЙ ДЛЯ РЕМОНТА</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>План расположения мебели и&nbsp;оборудования</li>
+                                        <li>План демонтажа конструкций</li>
+                                        <li>План монтажа конструкций</li>
+                                        <li>План теплых полов</li>
+                                        <li>План потолков</li>
+                                        <li>План расположения розеток</li>
+                                        <li>План расположения светильников</li>
+                                        <li>План расположения выключателей</li>
+                                        <li>План расположения сантехнического оборудования</li>
+                                    </ul>
+                                        <p class="star-txt star-txt-white"><span>+ </span>Развертки стен по некоторым помещениям</p>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numb3.svg" alt="">
+                                        <h6 class="d3">3D ВИЗУАЛИЗАЦИЯ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Фотореалистичные изображения интерьера</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numb4.svg" alt="">
+                                        <h6>СПЕЦИФИКАЦИЯ МАТЕРИАЛОВ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Сводная ведомость использованных отделочных материалов, мебели, дверей, 
+                                            светильников с&nbsp;указанием наименования, количества, артикулов и мест продажи</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numb5.svg" alt="">
+                                        <h6 class="d3">ПОДБОР МАТЕРИАЛОВ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Выезд на подбор краски/обоев</li>
+                                        <li>Выезд на подбор плитки</li>
+                                        <li>Выезд в салон кухни</li>
+                                        <li>Выезд по подбору мебели</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-textone-wrap number-text-white">
+                                        <h6>пакет "Профи" отличается от пакета "Оптимальный" тем, что в него включен "Авторский Надзор"
+                                            и&nbsp;"Подбор материалов
+                                            +&nbsp;(&nbsp;4&nbsp;выезда )</h6>
+                                    </div>
+                                    <p class="price-number price-number-white"><span>3500 </span>руб/м&sup2;</p>
+                                    <a class="wrap-free-link wrap-free-price" href="">
+                                        <p>выбрать тариф</p>
+                                        <img src="assets/img/icon/btn-arrow.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tariff tariff-wrap-orange">
+                                <h4 class="tariff-title">Полный VIP</h4>
+                                    <div class="entrance-wrap entrance-wrap-orange">
+                                        <p>Что входит в проект</p>
+                                        <img src="assets/img/icon/arrow-bottom.svg" alt="">
+                                    </div>
+                                <div class="tariff tariff-gray">
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numborange1.svg" alt="">
+                                        <h6>ПЛАНИРОВОЧНОЕ РЕШЕНИЕ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Выезд на объект</li>
+                                        <li>План обмера</li>
+                                        <li>Планировочные решения</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numborange2.svg" alt="">
+                                        <h6>КОМПЛЕКТ ЧЕРТЕЖЕЙ ДЛЯ РЕМОНТА</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>План расположения мебели и&nbsp;оборудования</li>
+                                        <li>План демонтажа конструкций</li>
+                                        <li>План монтажа конструкций</li>
+                                        <li>План теплых полов</li>
+                                        <li>План потолков</li>
+                                        <li>План расположения розеток</li>
+                                        <li>План расположения светильников</li>
+                                        <li>План расположения выключателей</li>
+                                        <li>План расположения сантехнического оборудования</li>
+                                    </ul>
+                                        <p class="star-txt star-txt-white"><span class="orange-span">+ </span>Развертки стен по некоторым помещениям</p>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numborange3.svg" alt="">
+                                        <h6 class="d3">3D ВИЗУАЛИЗАЦИЯ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Фотореалистичные изображения интерьера</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numborange4.svg" alt="">
+                                        <h6>СПЕЦИФИКАЦИЯ МАТЕРИАЛОВ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Сводная ведомость использованных отделочных материалов, мебели, дверей, 
+                                            светильников с&nbsp;указанием наименования, количества, артикулов и мест продажи</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numborange5.svg" alt="">
+                                        <h6 class="d3">ПОДБОР МАТЕРИАЛОВ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Выезд на подбор краски/обоев</li>
+                                        <li>Выезд на подбор плитки</li>
+                                        <li>Выезд в салон кухни</li>
+                                        <li>Выезд по подбору мебели</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-text-white">
+                                        <img src="assets/img/icon/numborange6.svg" alt="">
+                                        <h6>Выполнение ремонтно- отделочных работ</h6>
+                                    </div>
+                                    <ul class="list-price list-price-white">
+                                        <li>Заключаем договор</li>
+                                        <li>Рассчитываем смету на ремонтные работы</li>
+                                        <li>Вывозим мусор</li>
+                                        <li>Выполняем уборку помещения</li>
+                                    </ul>
+                                    <div class="number-text-wrap number-textone-wrap number-text-white">
+                                        <h6>В пакете "Полный V.I.P." добавляются полный авторский надзор за ходом выполнения работ</h6>
+                                    </div>
+                                    <p class="price-number price-number-white"><span>6000 </span>руб/м&sup2;</p>
+                                    <a class="wrap-free-link wrap-free-price orange-btn-price" href="">
+                                        <p>выбрать тариф</p>
+                                        <img src="assets/img/icon/gray-btn.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+        <section id="stages" class="stages">
+            <div class="container">
+                <div class="wrap-stages">
+                    <h2 class="stages-title">ЭТАПЫ <span>ДИЗАЙН</span> ПРОЕКТА</h2>
+                    <p class="stages-txt">Ваш проект будет состоять из 4 основных этапов</p>
+                    <img class="stages-img" src="assets/img/bg/stages-bg.svg" alt="">
+                </div>
+            </div>
+            <img class="stages-img stages-img-mobile" src="assets/img/bg/punkt-mobile.svg" alt="">
+        </section>
+        <section>
+            <div class="container">
+                <div class="for-stage">
+                    <div class="number-stage">
+                        <img class="number-stage-img" src="assets/img/icon/buk.png" alt="">
+                        <div class="mini-number-stage">
+                            <img class="step-img" src="assets/img/icon/number01.svg" alt="">
+                            <h5 class="number-stage-title">ЭСКИЗНАЯ ЧАСТЬ ПРОЕКТА</h5>
+                            <ul class="number-stage-list">
+                                <li>Планировки с расстановкой мебели</li>
+                                <li>Утвержденная планировка стен и перегородок</li>
+                                <li>Подборка мебели, материалов для 3D</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="number-stage">
+                        <img class="number-stage-img" src="assets/img/icon/kas.png" alt="">
+                        <div class="mini-number-stage">
+                            <img class="step-img" src="assets/img/icon/number02.svg" alt="">
+                            <h5 class="number-stage-title">РАБОЧАЯ ЧАСТЬ ПРОЕКТА</h5>
+                            <ul class="number-stage-list">
+                                <li>План сносимых/возводимых перегородок</li>
+                                <li>План проемов и ниш</li>
+                                <li>Карта полов (с указанием материалов)</li>
+                                <li>Раскладка напольных покрытий</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="number-stage">
+                        <img class="number-stage-img number-stage-img3" src="assets/img/icon/stul.png" alt="">
+                        <div class="mini-number-stage">
+                            <img class="step-img" src="assets/img/icon/number03.svg" alt="">
+                            <h5 class="number-stage-title">3D ВИЗУАЛИЗАЦИЯ</h5>
+                            <ul class="number-stage-list">
+                                <li>Разработка 3D изображения с учетом материалов, мебели, всех размеров и пропорций</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="number-stage">
+                        <img class="number-stage-img number-stage-img4" src="assets/img/icon/kras.png" alt="">
+                        <div class="mini-number-stage">
+                            <img class="step-img" src="assets/img/icon/number04.svg" alt="">
+                            <h5 class="number-stage-title">ПОДБОР МАТЕРИАЛОВ</h5>
+                            <ul class="number-stage-list">
+                                <li>Составляем спецификацию материалов</li>
+                                <li>Сводная ведомость использованных отделочных материалов, мебели, дверей, светильников и прочего</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-form">
+            <div class="container">
+                <div class="wrap-sec-form">
+                    <h2 class="title-sec-form">Получить <span>консультацию</span> </h2>
+                    <form id="form" autocomplete="off">
+                        <div class="wrap-inp">
+                            <input autocomplete="off" id="name" name="name" placeholder="Имя" class="inp-sec-form form__input form-control" type="text">
+                        </div>
+                        <div class="wrap-inp">
+                            <input autocomplete="off" id="phone" name="phone" placeholder="Телефон" class="inp-sec-form form__input form-control" type="tel">
+                        </div>
+                        
+                        <div class="wrap-inp wrap-inp-btn">
+                            <input class="inp-sec-form btn-sec-form" value="Оставить заявку" type="submit">
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="wrap-footer">
+                <div class="wrap-logo wrap-logo-footer">
+                    <a href="/index.html">
+                    <img src="assets/img/icon/logo.svg" alt="">
+                    </a>
+                    <div class="info-map">
+                        <div class="info-map-wrap">
+                            <p>г. Ростов-на-Дону,</p>
+                            <p>ул. Орбитальная, 46</p>
+                        </div>
+                        <div class="info-map-wrap">
+                            <p>Рабочие дни</p>
+                            <p>Пн-Пт: 9.00-18.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap-numb-mail">
+                    <div class="number-footer">
+                        <a class="link-footer-wrap" href="tel:+78633006055">
+                            <img src="assets/img/icon/numb-foot.svg" alt="">
+                            <p class="link-footer">8 863 300-60-55</p>
+                        </a>
+                    </div>
+                    <div class="mail-footer">
+                        <a class="link-footer-wrap" href="mailto:info@rostartmedia.ru">
+                            <img src="assets/img/icon/mail-foot.svg" alt="">
+                            <p class="link-footer">info@rostartmedia.ru</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/hamburger.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
