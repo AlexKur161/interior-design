@@ -1919,6 +1919,9 @@ height: 388px;
   opacity: 1;
   transition: opacity 0.3s
  }
+ .mobil-nav{
+  display: flex;
+ }
   .wrap-cross {
     display: flex;
 }
