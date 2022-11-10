@@ -276,10 +276,10 @@
                                 <li>Кафе или ресторан</li>
                                 <li>Салон красоты или магазин</li>
                             </ul>
-                            <a class="wrap-free-link visualization-free" href="">
+                            <button class="wrap-free-link visualization-free show-popap" href="">
                                 <p>Получить предложение</p>
                                 <img src="assets/img/icon/btn-arrow.svg" alt="">
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -346,10 +346,10 @@
                 <li>Кафе или ресторан</li>
                 <li>Салон красоты или магазин</li>
             </ul>
-            <a class="wrap-free-link visualization-free" href="">
+            <button class="wrap-free-link visualization-free show-popap" href="">
                 <p>Получить предложение</p>
                 <img src="assets/img/icon/btn-arrow.svg" alt="">
-            </a>
+            </button>
         </div>
     </div>
    
@@ -468,10 +468,10 @@
                                     <li>Концепция вашего жилья</li>
                                 </ul>
                                 <p class="price-number"><span>750 </span>руб/м&sup2;</p>
-                                <a class="wrap-free-link wrap-free-price" href="">
+                                <button class="wrap-free-link wrap-free-price show-popap" href="#">
                                     <p>выбрать тариф</p>
                                     <img src="assets/img/icon/btn-arrow.svg" alt="">
-                                </a>
+                                </button>
                             </div>
                             <div class="tariff">
                                 <h4 class="tariff-title">Оптимальный</h4>
@@ -523,10 +523,10 @@
                                     <h6>В пакете "Оптимальный" добавляются 3d визуализации вашего будущего помещения</h6>
                                 </div>
                                 <p class="price-number"><span>1500 </span>руб/м&sup2;</p>
-                                <a class="wrap-free-link wrap-free-price" href="">
+                                <button class="wrap-free-link wrap-free-price show-popap" href="#">
                                     <p>выбрать тариф</p>
                                     <img src="assets/img/icon/btn-arrow.svg" alt="">
-                                </a>
+                                </button>
                             </div>
                             <div class="tariff tariff-wrap-orange">
                                 <h4 class="tariff-title">Профи</h4>
@@ -591,10 +591,10 @@
                                             +&nbsp;(&nbsp;4&nbsp;выезда )</h6>
                                     </div>
                                     <p class="price-number price-number-white"><span>3500 </span>руб/м&sup2;</p>
-                                    <a class="wrap-free-link wrap-free-price" href="">
+                                    <button class="wrap-free-link wrap-free-price show-popap" href="#">
                                         <p>выбрать тариф</p>
                                         <img src="assets/img/icon/btn-arrow.svg" alt="">
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                             <div class="tariff tariff-wrap-orange">
@@ -668,10 +668,10 @@
                                         <h6>В пакете "Полный V.I.P." добавляются полный авторский надзор за ходом выполнения работ</h6>
                                     </div>
                                     <p class="price-number price-number-white"><span>6000 </span>руб/м&sup2;</p>
-                                    <a class="wrap-free-link wrap-free-price orange-btn-price" href="">
+                                    <button class="wrap-free-link wrap-free-price orange-btn-price show-popap" href="#">
                                         <p>выбрать тариф</p>
                                         <img src="assets/img/icon/gray-btn.svg" alt="">
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -796,6 +796,36 @@
                 </div>
             </div>
         </div>
+
+<div class="popap hide-popap">
+    <div class="shadow-screen">
+        <div class="popap-wrap">
+            <button class="close-popap"><img class="img-close" src="assets/img/icon/btn-close.svg" alt=""></button>
+            <h4 class="title-popap">Оставьте заявку, чтобы получить <span>коммерческое предложение</span></h4>
+            <form id="form-popap" autocomplete="off">
+                <div class="wrap-inp wrap-inp-popup">
+                    <input autocomplete="off" id="name" name="name" placeholder="Имя" class="popap-inp form__input form-control" type="text">
+                </div>
+                <div class="wrap-inp wrap-inp-popup">
+                    <input autocomplete="off" id="phone" name="phone" placeholder="Телефон" class="popap-inp form__input form-control" type="tel">
+                </div>
+                
+                <div class="wrap-inp wrap-inp-btn wrap-inp-popup">
+                    <input class="inp-sec-form btn-sec-form popap-form-btn" value="Оставить заявку" type="submit">
+                </div>
+                <p class="terms-agreement">Нажимая на&nbsp;кнопку, я&nbsp;даю свое согласие на&nbsp;обработку персональных данных и&nbsp;принимаю условия соглашения</p>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.fancybox.min.js"></script>

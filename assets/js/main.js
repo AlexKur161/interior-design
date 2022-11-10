@@ -8,7 +8,21 @@ let info = document.querySelector('.quality-mini')
 let cards = document.querySelectorAll('.card-ani')
 let card = document.querySelector('.card-show')
 let form = document.getElementById('form')
+let showPopap = document.querySelectorAll('.show-popap')
+let closePopap = document.querySelector('.img-close')
+let fonPopap = document.querySelector('.popap')
+let shadow = document.querySelector('.shadow-screen')
 
+fonPopap.addEventListener('click', (e) => {
+    if ( e.target == shadow || e.target == closePopap ){
+        fonPopap.classList.add('hide-popap') 
+    }
+})
+showPopap.forEach(item => {
+    item.addEventListener('click', (e) => {
+        fonPopap.classList.remove('hide-popap')
+    })    
+})
 
 next.addEventListener('click',() => {
     next.setAttribute("disabled", "")
@@ -62,7 +76,6 @@ prev.addEventListener('click',() => {
 
     const validation = new JustValidate('#form');
     let selector = document.getElementById("phone");
-    console.log(selector)
     let im = new Inputmask("+7(999)999-99-99");
     im.mask(selector)
         validation
