@@ -2208,7 +2208,9 @@ div.circle.circle-project  img.video-img-ani{
 }
 }
 @media(max-width:460px){
-
+  .wrap-free-link {
+    width: 305px;
+}
   .rost-info-img{
     height: 80px;
   }
@@ -2385,8 +2387,22 @@ line-height: 130%;
   justify-content: center;
   padding-right: 75px;
 }
+.wrap-free-link{
+  width: 290px;
+}
 }
 @media(max-width:419px){
+  .wrap-free-link {
+    width: auto;
+}
+.wrap-free{
+  padding: 40px 20px;
+  padding-bottom: 260px;
+}
+.wrap-free-link p{
+  font-size: 10px;
+  line-height: 15px;
+}
   .price-diz-wrap {
     width: 320px;
 }
