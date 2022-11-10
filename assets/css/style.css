@@ -539,6 +539,7 @@ max-width: 230px;
       background-size: 100%;
       transition: .5s;
       border: none;
+      cursor: pointer;
     }
     .wrap-free-link:hover {
       background-position: left;
@@ -1426,6 +1427,7 @@ padding-left: 45px;
 }
 .wrap-inp-btn{
   position: relative;
+  height: 70px;
 }
 .wrap-inp-btn::after{
   content: "";
