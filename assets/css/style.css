@@ -2117,6 +2117,10 @@ div.circle.circle-project  img.video-img-ani{
 }
 }
 @media(max-width:660px){
+  .orange-visualization{
+    margin-top: 20px;
+    width: 100%;
+  }
   .wrap-numb-mail {
     gap: 40px;
     flex-direction: column;
