@@ -8,6 +8,7 @@ let info = document.querySelector('.quality-mini')
 let cards = document.querySelectorAll('.card-ani')
 let card = document.querySelector('.card-show')
 let form = document.getElementById('form')
+let formPopap = document.getElementById('form-popap')
 let showPopap = document.querySelectorAll('.show-popap')
 let closePopap = document.querySelector('.img-close')
 let fonPopap = document.querySelector('.popap')
@@ -75,9 +76,13 @@ prev.addEventListener('click',() => {
     })
 
     const validation = new JustValidate('#form');
+    const validation2 = new JustValidate('#form-popap');
     let selector = document.getElementById("phone");
     let im = new Inputmask("+7(999)999-99-99");
+    let selector2 = document.getElementById("phone2");
+    let im2 = new Inputmask("+7(999)999-99-99");
     im.mask(selector)
+    im2.mask(selector2)
         validation
         .addField('#name', [
     {
@@ -120,6 +125,49 @@ prev.addEventListener('click',() => {
         console.log(result)
         alert(result.message);
     })
+
+    validation2
+    .addField('#name', [
+{
+    rule: 'required',
+    errorMessage: 'Введите имя'
+},
+{
+    rule: 'minLength',
+    value: 2,
+    errorMessage: 'Мин кл-во символов в имени 2'
+},
+{
+    rule: 'maxLength',
+    value: 20,
+    errorMessage: 'Недопустимое количество символов'
+},
+])
+.addField('#phone2', [
+{
+    rule: 'required',
+    errorMessage: 'Введите телефон',
+},
+{
+    rule: 'minLength',
+    value: 11,
+    errorMessage: 'Мин кл-во символов номера 11'
+},
+{
+    rule: 'maxLength',
+    value: 16,
+    errorMessage: 'Макс кл-во символов номера 12'
+},
+])
+.onSuccess( async event => {
+    let response = await fetch('/send.php', {
+        method: 'POST',
+        body: new FormData(formPopap)
+    });
+    let result = await response.json();
+    console.log(result)
+    alert(result.message);
+})
 
     const swiper = new Swiper('.swiper', {
         loop: true,

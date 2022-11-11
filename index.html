@@ -23,12 +23,12 @@
                             </a>
                         </div>
                         <nav class="diz-nav">
-                            <a href="#calc" class="link-menu link-arrow">Калькулятор</a>
-                            <a href="#project" class="link-menu link-arrow">Наши работы</a>
-                            <a href="#ar" class="link-menu link-arrow">AR-мебель</a>
-                            <a href="#tariff" class="link-menu link-arrow">Тарифы</a>
-                            <a href="#stages" class="link-menu link-arrow">Этапы</a>
-                            <a href="#contact" class="link-menu link-arrow">Контакты</a>
+                            <a href="#calc" class="link-menu link-arrow move-center">Калькулятор</a>
+                            <a href="#project" class="link-menu link-arrow move-start">Наши работы</a>
+                            <a href="#ar" class="link-menu link-arrow move-center">AR-мебель</a>
+                            <a href="#tariff" class="link-menu link-arrow move-start">Тарифы</a>
+                            <a href="#stages" class="link-menu link-arrow move-center">Этапы</a>
+                            <a href="#contact" class="link-menu link-arrow move-center">Контакты</a>
                         </nav>
 
                         <div class="hamburger-wrap">
@@ -49,12 +49,12 @@
                     </div>
                 </div>
                 <nav class="diz-nav diz-mobil">
-                    <a href="#calc" class="link-menu link-arrow">Калькулятор</a>
-                    <a href="#project" class="link-menu link-arrow">Наши работы</a>
-                    <a href="#ar" class="link-menu link-arrow">AR-мебель</a>
-                    <a href="#tariff" class="link-menu link-arrow">Тарифы</a>
-                    <a href="#stages" class="link-menu link-arrow">Этапы</a>
-                    <a href="#contact" class="link-menu link-arrow">Контакты</a>
+                    <a href="#calc" class="link-menu link-arrow move-center">Калькулятор</a>
+                    <a href="#project2" class="link-menu link-arrow move-start">Наши работы</a>
+                    <a href="#ar" class="link-menu link-arrow move-center">AR-мебель</a>
+                    <a href="#tariff" class="link-menu link-arrow move-start">Тарифы</a>
+                    <a href="#stages" class="link-menu link-arrow move-center">Этапы</a>
+                    <a href="#contact" class="link-menu link-arrow move-center">Контакты</a>
                 </nav>
                 <div class="phone-wrap contact-wrap">
                     <div class="phone-wrap-mini">
@@ -220,7 +220,7 @@
                 <div class="wrap-free">
                     <h2 class="wrap-free-title">Бесплатный расчет стоимости</h2>
                     <p class="wrap-free-txt">Пройдите тест и получите бесплатную консультацию специалиста, по стоимости работ</p>
-                    <a target="_blank" class="wrap-free-link" href="https://mrqz.me/61920d4e3f55de003f174314">
+                    <a target="_blank" class="wrap-free-link calc-free-link" href="https://mrqz.me/61920d4e3f55de003f174314">
                         <p>рассчитать стоимость</p>
                         <img src="assets/img/icon/btn-arrow.svg" alt="">
                     </a>
@@ -252,10 +252,10 @@
                         
                         <div class="wrap-fancy">
                             <a data-fancybox="gallery" href="assets/img/fancy/fancybig-1.jpg">
-                                <img src="assets/img/fancy/fancy-1.png">
+                                <img class="gallery-img3" src="assets/img/fancy/fancy-1.png">
                             </a>
                             <a data-fancybox="gallery" href="assets/img/fancy/fancybig-2.jpg">
-                                <img src="assets/img/fancy/fancy-2.png">
+                                <img class="gallery-img4" src="assets/img/fancy/fancy-2.png">
                             </a>
                         </div>
                     </div>
@@ -263,10 +263,10 @@
                 <div class="wrap-project2">
                     <div class="wrap-fancy">
                         <a data-fancybox="gallery" href="assets/img/fancy/fancybig-3.jpg">
-                            <img src="assets/img/fancy/fancy-3.png">
+                            <img class="gallery-img" src="assets/img/fancy/fancy-3.png">
                         </a>
                         <a data-fancybox="gallery" href="assets/img/fancy/fancybig-4.jpg">
-                            <img src="assets/img/fancy/fancy-4.png">
+                            <img class="gallery-img2" src="assets/img/fancy/fancy-4.png">
                         </a>
                         <div class="orange-visualization">
                             <h3 class="orange-visualization-title">Визуализируем любые объекты</h3>
@@ -287,7 +287,7 @@
         </section>
 
 
-        <section id="project" class="author-project author-project-mobil">
+        <section id="project2" class="author-project author-project-mobil">
             <div class="container">
                 <div class="wrap-project">
                     <div class="stl">
@@ -337,22 +337,6 @@
             <img class="img-swipe" src="assets/img/swiper/mobil-img4.png">
         </a>
     </div>
-    <div class="swiper-slide">
-        <div class="orange-visualization">
-            <h3 class="orange-visualization-title">Визуализируем любые объекты</h3>
-            <ul class="list-visualization">
-                <li>Квартира, дом</li>
-                <li>Офис</li>
-                <li>Кафе или ресторан</li>
-                <li>Салон красоты или магазин</li>
-            </ul>
-            <button class="wrap-free-link visualization-free show-popap" href="">
-                <p>Получить предложение</p>
-                <img src="assets/img/icon/btn-arrow.svg" alt="">
-            </button>
-        </div>
-    </div>
-   
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -373,6 +357,19 @@
 
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>
+</div>
+<div class="orange-visualization">
+    <h3 class="orange-visualization-title">Визуализируем любые объекты</h3>
+    <ul class="list-visualization">
+        <li>Квартира, дом</li>
+        <li>Офис</li>
+        <li>Кафе или ресторан</li>
+        <li>Салон красоты или магазин</li>
+    </ul>
+    <button class="wrap-free-link visualization-free show-popap" href="">
+        <p>Получить предложение</p>
+        <img src="assets/img/icon/btn-arrow.svg" alt="">
+    </button>
 </div>
                 </div>
             </div>
@@ -807,7 +804,7 @@
                     <input autocomplete="off" id="name" name="name" placeholder="Имя" class="popap-inp form__input form-control" type="text">
                 </div>
                 <div class="wrap-inp wrap-inp-popup">
-                    <input autocomplete="off" id="phone" name="phone" placeholder="Телефон" class="popap-inp form__input form-control" type="tel">
+                    <input autocomplete="off" id="phone2" name="phone" placeholder="Телефон" class="popap-inp form__input form-control" type="tel">
                 </div>
                 
                 <div class="wrap-inp wrap-inp-btn wrap-inp-popup">
@@ -832,5 +829,6 @@
     <script src="assets/js/hamburger.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/scroll.js"></script>
 </body>
 </html>
