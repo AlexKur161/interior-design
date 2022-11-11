@@ -2411,7 +2411,8 @@ line-height: 130%;
     margin-bottom: 3px;
   }
 .calc-free-link {
-  width: auto;
+  padding: 20px 30px;
+  width: 230px;
 }
   .visualization-free {
     width: auto;
@@ -2422,9 +2423,6 @@ line-height: 130%;
 .visualization-free img{
   width: 20px;
   height: 20px;
-}
-.orange-visualization{
-
 }
 .wrap-free{
   padding: 40px 20px;
