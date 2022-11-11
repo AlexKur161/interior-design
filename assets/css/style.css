@@ -2260,9 +2260,6 @@ div.circle.circle-project  img.video-img-ani{
   .author-project {
     padding: 100px 0px;
 }
-  .visualization-free{
-    padding: 20px;
-  }
   .stl2-title{
     font-size: 32px;
     line-height: 38px;
@@ -2393,19 +2390,51 @@ line-height: 130%;
   justify-content: center;
   padding-right: 75px;
 }
-.wrap-free-link{
-  width: 290px;
+.visualization-free{
+  padding: 20px;
+  width: 300px;
+  padding: 18px 20px 20px 37px;
+}
+.visualization-free img{
+ width: 30px;
+ height: 30px;
+ margin-bottom: 3px;
+}
+.calc-free-link{
+  width: 300px;
 }
 }
 @media(max-width:419px){
-  .wrap-free-link {
+  .calc-free-link img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+  }
+.calc-free-link {
+  width: auto;
+}
+  .visualization-free {
     width: auto;
+    padding: 20px 30px;
+    left: 20px;
+    bottom: 30px;
+}
+.visualization-free img{
+  width: 20px;
+  height: 20px;
+}
+.orange-visualization{
+
 }
 .wrap-free{
   padding: 40px 20px;
   padding-bottom: 260px;
 }
-.wrap-free-link p{
+.calc-free-link p{
+  font-size: 10px;
+  line-height: 15px;
+}
+.visualization-free p{
   font-size: 10px;
   line-height: 15px;
 }

@@ -10,7 +10,6 @@ anchors.forEach( anchor =>{
   })
 })
 const anchorsStart = document.querySelectorAll('.move-start')
-console.log(anchorsStart)
 anchorsStart.forEach( anchor2 =>{
   anchor2.addEventListener('click', function (e) {
     e.preventDefault()
