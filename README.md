@@ -1,5 +1,4 @@
 Лендинг создания дизайна интерьера
- <img src="https://disk.yandex.ru/client/disk/gif?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fgif%2Fbandicam%202022-11-11%2012-50-11-377.gif" height="200"/>
 
 Создание Анимации при открытии меню на мобильных устройствах.
 
