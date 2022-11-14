@@ -1,6 +1,6 @@
 Лендинг создания дизайна интерьера
 
-<img src="https://github.com/AlexKur161/interior-design/blob/gh-pages/gif/gif/bandicam%202022-11-11%2012-50-11-377.gif" height="200"/>
+<img src="https://github.com/AlexKur161/interior-design/blob/gh-pages/gif/gif/bandicam%202022-11-11%2012-50-11-377.gif" height="300"/>
 
 Создание Анимации при открытии меню на мобильных устройствах.
 
